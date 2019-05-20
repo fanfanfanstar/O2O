@@ -1,0 +1,152 @@
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+}
+header > a{
+    color: #4ebbfe;
+}
+.order{
+    height: 0.88rem;
+    padding: 0 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    font-size: 0.28rem;
+    color: #4ebbfe;
+}
+.order li.hot{
+    color: #36d681;
+
+}
+.order li > .iconfont{
+    font-size: 0.22rem;
+    margin-left:0.2rem;
+}
+.list{
+    width: 100%;
+    position: absolute;
+    top: 2rem;
+    bottom:0;
+    /*background: #4ebbfe;*/
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 0.3rem;
+}
+.listItem{
+    height: 1.74rem;
+    background: white;
+    margin-bottom: 0.66rem;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*line-height: 0.88rem;*/
+    /*position: relative;*/
+}
+.listItem > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.tukuang{
+    height: 1.74rem;
+    background: #ffffff;
+    width: 1.74rem;
+    /*padding: 0.3rem;*/
+    display: flex;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(233,233,233,0.43);
+    /*justify-content: left;*/
+    /*line-height: 0.88rem;*/
+/*align-items: center;*/
+}
+
+/*overflow: hidden}*/
+.wenzi{
+    height: 1.74rem;
+    width: 2rem;
+    flex-grow: 1;
+    padding-left: 0.26rem;
+    display: flex;
+    flex-direction: column;
+    /*overflow: hidden;*/
+    /*justify-content: center;*/
+    /*box-sizing: border-box;*/
+    position:relative;
+justify-content: space-between;
+}
+.wenzi > h1 {
+  color: rgba(0,0,0,0.6);
+    font-weight: normal;
+    font-size: 0.28rem;
+
+
+}
+.wenzi > .score{
+    /*position: relative;*/
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+}
+.wenzi .score span{
+    position: relative;
+    padding-left: 0.14rem;
+    margin-right: 0.58rem;
+}
+.wenzi .score span::before{
+    content: '';
+    position: absolute;
+    top: 0.1rem;
+    left: 0;
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #4ebbfe;
+}
+.wenzi > .score strong{
+    font-size: 0.26rem;
+    color: #4ebbfe;
+}
+.wenzi > .tag{
+    font-size: 0.2rem;
+    color: #36a8fe;
+
+}
+.tag > span{
+    padding: 0.08rem 0.2rem;
+    background:rgba(59,171,255,0.1);
+    border-radius: 0.18rem;
+}
+.wenzi .total{
+    color: rgba(0,0,0,0.3);
+    font-size: 0.18rem;
+    margin-top: 0.2rem;
+
+}
+.wenzi .total span{
+    position: relative;
+    padding-left: 0.14rem;
+    margin-right: 0.58rem;
+}
+.wenzi .total span::before{
+    content: '';
+    position: absolute;
+    top: 0.07rem;
+    left: 0;
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #04a812;
+}
+.wenzi .price{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 0.26rem;
+    color: #fbb548;
+}
+

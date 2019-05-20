@@ -1,0 +1,313 @@
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    /*position: relative;*/
+    left: 0;
+    top: 0;
+}
+header > a{
+    color: #4ebbfe;
+}
+.pic{
+    width: 100%;
+    height: 6.8rem;
+    margin-top: 0.15rem;
+    padding: 0 0.22rem;
+    background: white;
+    box-sizing: border-box;
+    /*display: flex;*/
+    display: flex;
+   justify-content: center ;
+    align-items:center;
+
+
+
+}
+.pic img {
+    width: 3.01rem;
+    height: 3.63rem;
+    /*margin: 2.4rem;*/
+
+}
+.wenzi{
+    margin-top: 0.22rem;
+    width: 100%;
+    height: 1.76rem;
+    padding: 0 0.22rem;
+    position: relative;
+    box-sizing: border-box;
+
+}
+.wenzi > h1 {
+    color:#000;
+    opacity:0.6;
+    font-weight: normal;
+    font-size: 0.28rem;
+
+
+}
+.wenzi > p.desc{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    line-height: 1.5;
+    height: 0.66rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-crient:2;
+    overflow: hidden;
+}
+.info{
+    font-size: 0.2rem;
+    overflow: hidden;
+}
+.info > span{
+    margin-right: 0.2rem;
+}
+.info > span:first-child{
+    font-size: 0.26rem;
+    color: #fbb548;
+}
+.info > span:nth-child(2){
+    color: #41b2fc;
+    background: rgba(65,178,252,0.1);
+    padding: 0.08rem 0.2rem;
+    border-radius: 0.22rem;
+}
+.info > span:nth-child(3){
+    color: #36d681;
+    background: rgba(54,214,129,0.1);
+    padding: 0.08rem 0.2rem;
+    border-radius: 0.22rem;
+}
+/*.wenzi > .tag{*/
+/*    font-size: 0.2rem;*/
+/*    color: #36a8fe;*/
+
+/*}*/
+/*.tag > span{*/
+/*    padding: 0.08rem 0.2rem;*/
+/*    background:rgba(59,171,255,0.1);*/
+/*    border-radius: 0.18rem;*/
+/*}*/
+
+/*.wenzi .price{*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    font-size: 0.26rem;*/
+/*    color: #fbb548;*/
+/*}*/
+.info > .total{
+    float: right;
+}
+.discount{
+    margin-top: 0.15rem;
+}
+.discount a img {
+    width: 0.8rem;
+    height: 0.6rem;
+    float: left;
+    overflow: hidden;
+
+}
+.discount > span{
+    padding: 0.08rem 0.2rem;
+    background-color: #36d681;
+    background-image: linear-gradient(-90deg , #ffca3b ,#ff933b);
+    border-radius: 0.22rem;
+    color: #ffffff!important;;
+    overflow: hidden;
+
+}
+
+h1.title{
+    padding: 0.4rem 0.22rem;
+    font-size: 0.32rem;
+    color: #4ebbfe;
+    margin-top: 0.22rem;
+    border-bottom: 0.01rem solid red;
+}
+h1.title b{
+    color: #4f5b54;
+}
+h1.title > a {
+    color: #41b2fc;
+    font-size: 0.22rem;
+    float: right;
+}
+/*h1.title > a > i{*/
+/*    transform:rotateZ(0deg) ;*/
+
+h1.title > >i:last-child{
+    opacity: 0.5;
+}
+.comment{
+    height: auto;
+    padding: 0 0.22rem;
+    /*overflow: hidden;*/
+
+}
+.commentItem{
+    padding:  0.2rem 0 ;
+    height: auto;
+    border-bottom: 0.01rem rgba(216,223,227,0.3);
+    display: flex;
+    /*overflow: hidden;*/
+    /*margin-bottom: 0.2rem;*/
+    /*background: #ff86e2;*/
+    /*overflow: hidden;*/
+}
+.comment .avatar{
+    width: 0.86rem;
+    height: 0.86rem;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    flex: none;
+}
+.comment .commentInfo{
+    flex-grow: 1;
+    /*background: #046B80;*/
+    /*padding-top: 0.2rem;*/
+    float: right;
+    padding-left: 0.2rem;
+
+}
+.infoTop{
+    font-size: 0.2rem;
+    color:#41b2fc;
+    overflow: hidden;
+}
+.infoTop > .username{
+    float: left;
+    margin-right: 0.4rem;
+}
+.infoTop .date{
+    float: right;
+}
+.infoTop > .star{
+    float: left;
+    position: relative;
+    width: 1.28rem;
+    height: 0.22rem;
+}
+.infoTop  >  .star > div{
+    width: 1.28rem;
+    height: 0.22rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.infoTop > .star > div > [src]{
+    width: 1.28rem;
+    height: 0.22rem;
+}
+.comment .commentCon{
+    width: 6rem;
+    font-size: 0.2rem;
+    color: #333333;
+    /*white-space: nowrap;*/
+    overflow: hidden;
+    /*-webkit-line-clamp: 2;*/
+    text-overflow: ellipsis;
+}
+.shoppingnews{
+    width: 3.2rem;
+    color: #000000;
+    opacity: 0.3;
+    margin-top: 0.1rem;
+    font-size: 0.16rem;
+    overflow: hidden;
+}
+.shoppingtu{
+    margin-top: 0.1rem;
+    width: 2rem;
+    height: 1rem;
+}
+.liketui{
+    height: auto;
+    padding: 0 0.22rem;
+    overflow: hidden;
+
+}
+.liketui li{
+    width: 2.1rem;
+    height: 2.7rem;
+    /*height: 618px;*/
+    /*background: #fca2a3;*/
+    margin-top: 0.1rem;
+    float: left;
+    /*margin: 20px 10px;*/
+    padding-right: 0.1rem;
+    padding-left: 0.15rem;
+}
+.liketui li h1{
+    margin: 0.2rem 0;
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.6);
+    font-weight: normal;
+}
+.tu{
+    width: 1.3rem;
+    height:1.38rem;
+    border-radius: 5px;
+    margin: 10px;
+    /*background:   #fca2a3;*/
+    padding-right: 10px;
+
+    display: block;
+    overflow: hidden;
+}
+footer{
+    /*position: absolute;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.08rem;
+    float: left;
+    line-height: 1.08rem;
+    background-color: #f1faff;
+    /*overflow: hidden;*/
+}
+.dianpu{
+    margin-left: 0.45rem;
+    width: 0.5rem;
+    /*overflow: hidden;*/
+    height: 0.5rem;
+    float: left;
+}
+.call{
+    margin-left: 0.71rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+
+}
+.footzi{
+    float: right;
+    margin-right: 0.2rem;
+}
+.addto{
+ width: 2.25rem;
+    height: 0.3rem;
+    background: #37e06f;
+    border-radius: 0.3rem;
+    /*float: right;*/
+    margin-right: 0.29rem;
+}
+.runlist{
+    width: 2.25rem;
+    height: 0.3rem;
+    background: #3bacfe;
+    border-radius: 0.3rem;
+    /*float: right;*/
+    margin-right: 0.29rem;
+}
